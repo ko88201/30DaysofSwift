@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C764CBF81CC37EFB005DA869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764CBF71CC37EFB005DA869 /* AppDelegate.swift */; };
+		C764CBFA1CC37EFB005DA869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764CBF91CC37EFB005DA869 /* ViewController.swift */; };
+		C764CBFD1CC37EFB005DA869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C764CBFB1CC37EFB005DA869 /* Main.storyboard */; };
+		C764CBFF1CC37EFB005DA869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C764CBFE1CC37EFB005DA869 /* Assets.xcassets */; };
+		C764CC021CC37EFB005DA869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C764CC001CC37EFB005DA869 /* LaunchScreen.storyboard */; };
+		C764CC2E1CC37F66005DA869 /* rockman10.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC121CC37F66005DA869 /* rockman10.png */; };
+		C764CC2F1CC37F66005DA869 /* rockman11.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC131CC37F66005DA869 /* rockman11.png */; };
+		C764CC301CC37F66005DA869 /* rockman12.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC141CC37F66005DA869 /* rockman12.png */; };
+		C764CC311CC37F66005DA869 /* rockman13.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC151CC37F66005DA869 /* rockman13.png */; };
+		C764CC321CC37F66005DA869 /* rockman14.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC161CC37F66005DA869 /* rockman14.png */; };
+		C764CC331CC37F66005DA869 /* rockman15.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC171CC37F66005DA869 /* rockman15.png */; };
+		C764CC341CC37F66005DA869 /* rockman16.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC181CC37F66005DA869 /* rockman16.png */; };
+		C764CC351CC37F66005DA869 /* rockman17.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC191CC37F66005DA869 /* rockman17.png */; };
+		C764CC361CC37F66005DA869 /* rockman18.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC1A1CC37F66005DA869 /* rockman18.png */; };
+		C764CC371CC37F66005DA869 /* rockman19.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC1B1CC37F66005DA869 /* rockman19.png */; };
+		C764CC381CC37F66005DA869 /* rockman20.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC1C1CC37F66005DA869 /* rockman20.png */; };
+		C764CC391CC37F66005DA869 /* rockman21.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC1D1CC37F66005DA869 /* rockman21.png */; };
+		C764CC3A1CC37F66005DA869 /* rockman22.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC1E1CC37F66005DA869 /* rockman22.png */; };
+		C764CC3B1CC37F66005DA869 /* rockman23.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC1F1CC37F66005DA869 /* rockman23.png */; };
+		C764CC3C1CC37F66005DA869 /* rockman24.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC201CC37F66005DA869 /* rockman24.png */; };
+		C764CC3D1CC37F66005DA869 /* rockman25.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC211CC37F66005DA869 /* rockman25.png */; };
+		C764CC3E1CC37F66005DA869 /* rockman26.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC221CC37F66005DA869 /* rockman26.png */; };
+		C764CC3F1CC37F66005DA869 /* rockman27.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC231CC37F66005DA869 /* rockman27.png */; };
+		C764CC401CC37F66005DA869 /* rockman28.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC241CC37F66005DA869 /* rockman28.png */; };
+		C764CC4A1CC386C8005DA869 /* rockman1.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC411CC386C8005DA869 /* rockman1.png */; };
+		C764CC4B1CC386C8005DA869 /* rockman2.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC421CC386C8005DA869 /* rockman2.png */; };
+		C764CC4C1CC386C8005DA869 /* rockman3.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC431CC386C8005DA869 /* rockman3.png */; };
+		C764CC4D1CC386C8005DA869 /* rockman4.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC441CC386C8005DA869 /* rockman4.png */; };
+		C764CC4E1CC386C8005DA869 /* rockman5.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC451CC386C8005DA869 /* rockman5.png */; };
+		C764CC4F1CC386C8005DA869 /* rockman6.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC461CC386C8005DA869 /* rockman6.png */; };
+		C764CC501CC386C8005DA869 /* rockman7.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC471CC386C8005DA869 /* rockman7.png */; };
+		C764CC511CC386C8005DA869 /* rockman8.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC481CC386C8005DA869 /* rockman8.png */; };
+		C764CC521CC386C8005DA869 /* rockman9.png in Resources */ = {isa = PBXBuildFile; fileRef = C764CC491CC386C8005DA869 /* rockman9.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C764CBF41CC37EFB005DA869 /* tapAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C764CBF71CC37EFB005DA869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C764CBF91CC37EFB005DA869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C764CBFC1CC37EFB005DA869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C764CBFE1CC37EFB005DA869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C764CC011CC37EFB005DA869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C764CC031CC37EFB005DA869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C764CC121CC37F66005DA869 /* rockman10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman10.png; sourceTree = "<group>"; };
+		C764CC131CC37F66005DA869 /* rockman11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman11.png; sourceTree = "<group>"; };
+		C764CC141CC37F66005DA869 /* rockman12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman12.png; sourceTree = "<group>"; };
+		C764CC151CC37F66005DA869 /* rockman13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman13.png; sourceTree = "<group>"; };
+		C764CC161CC37F66005DA869 /* rockman14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman14.png; sourceTree = "<group>"; };
+		C764CC171CC37F66005DA869 /* rockman15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman15.png; sourceTree = "<group>"; };
+		C764CC181CC37F66005DA869 /* rockman16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman16.png; sourceTree = "<group>"; };
+		C764CC191CC37F66005DA869 /* rockman17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman17.png; sourceTree = "<group>"; };
+		C764CC1A1CC37F66005DA869 /* rockman18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman18.png; sourceTree = "<group>"; };
+		C764CC1B1CC37F66005DA869 /* rockman19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman19.png; sourceTree = "<group>"; };
+		C764CC1C1CC37F66005DA869 /* rockman20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman20.png; sourceTree = "<group>"; };
+		C764CC1D1CC37F66005DA869 /* rockman21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman21.png; sourceTree = "<group>"; };
+		C764CC1E1CC37F66005DA869 /* rockman22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman22.png; sourceTree = "<group>"; };
+		C764CC1F1CC37F66005DA869 /* rockman23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman23.png; sourceTree = "<group>"; };
+		C764CC201CC37F66005DA869 /* rockman24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman24.png; sourceTree = "<group>"; };
+		C764CC211CC37F66005DA869 /* rockman25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman25.png; sourceTree = "<group>"; };
+		C764CC221CC37F66005DA869 /* rockman26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman26.png; sourceTree = "<group>"; };
+		C764CC231CC37F66005DA869 /* rockman27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman27.png; sourceTree = "<group>"; };
+		C764CC241CC37F66005DA869 /* rockman28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman28.png; sourceTree = "<group>"; };
+		C764CC411CC386C8005DA869 /* rockman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman1.png; sourceTree = "<group>"; };
+		C764CC421CC386C8005DA869 /* rockman2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman2.png; sourceTree = "<group>"; };
+		C764CC431CC386C8005DA869 /* rockman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman3.png; sourceTree = "<group>"; };
+		C764CC441CC386C8005DA869 /* rockman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman4.png; sourceTree = "<group>"; };
+		C764CC451CC386C8005DA869 /* rockman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman5.png; sourceTree = "<group>"; };
+		C764CC461CC386C8005DA869 /* rockman6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman6.png; sourceTree = "<group>"; };
+		C764CC471CC386C8005DA869 /* rockman7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman7.png; sourceTree = "<group>"; };
+		C764CC481CC386C8005DA869 /* rockman8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman8.png; sourceTree = "<group>"; };
+		C764CC491CC386C8005DA869 /* rockman9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockman9.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C764CBF11CC37EFB005DA869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C764CBEB1CC37EFB005DA869 = {
+			isa = PBXGroup;
+			children = (
+				C764CBF61CC37EFB005DA869 /* tapAnimation */,
+				C764CBF51CC37EFB005DA869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C764CBF51CC37EFB005DA869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C764CBF41CC37EFB005DA869 /* tapAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C764CBF61CC37EFB005DA869 /* tapAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C764CBF71CC37EFB005DA869 /* AppDelegate.swift */,
+				C764CBF91CC37EFB005DA869 /* ViewController.swift */,
+				C764CBFB1CC37EFB005DA869 /* Main.storyboard */,
+				C764CBFE1CC37EFB005DA869 /* Assets.xcassets */,
+				C764CC001CC37EFB005DA869 /* LaunchScreen.storyboard */,
+				C764CC031CC37EFB005DA869 /* Info.plist */,
+				C764CC411CC386C8005DA869 /* rockman1.png */,
+				C764CC421CC386C8005DA869 /* rockman2.png */,
+				C764CC431CC386C8005DA869 /* rockman3.png */,
+				C764CC441CC386C8005DA869 /* rockman4.png */,
+				C764CC451CC386C8005DA869 /* rockman5.png */,
+				C764CC461CC386C8005DA869 /* rockman6.png */,
+				C764CC471CC386C8005DA869 /* rockman7.png */,
+				C764CC481CC386C8005DA869 /* rockman8.png */,
+				C764CC491CC386C8005DA869 /* rockman9.png */,
+				C764CC121CC37F66005DA869 /* rockman10.png */,
+				C764CC131CC37F66005DA869 /* rockman11.png */,
+				C764CC141CC37F66005DA869 /* rockman12.png */,
+				C764CC151CC37F66005DA869 /* rockman13.png */,
+				C764CC161CC37F66005DA869 /* rockman14.png */,
+				C764CC171CC37F66005DA869 /* rockman15.png */,
+				C764CC181CC37F66005DA869 /* rockman16.png */,
+				C764CC191CC37F66005DA869 /* rockman17.png */,
+				C764CC1A1CC37F66005DA869 /* rockman18.png */,
+				C764CC1B1CC37F66005DA869 /* rockman19.png */,
+				C764CC1C1CC37F66005DA869 /* rockman20.png */,
+				C764CC1D1CC37F66005DA869 /* rockman21.png */,
+				C764CC1E1CC37F66005DA869 /* rockman22.png */,
+				C764CC1F1CC37F66005DA869 /* rockman23.png */,
+				C764CC201CC37F66005DA869 /* rockman24.png */,
+				C764CC211CC37F66005DA869 /* rockman25.png */,
+				C764CC221CC37F66005DA869 /* rockman26.png */,
+				C764CC231CC37F66005DA869 /* rockman27.png */,
+				C764CC241CC37F66005DA869 /* rockman28.png */,
+			);
+			path = tapAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C764CBF31CC37EFB005DA869 /* tapAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C764CC061CC37EFB005DA869 /* Build configuration list for PBXNativeTarget "tapAnimation" */;
+			buildPhases = (
+				C764CBF01CC37EFB005DA869 /* Sources */,
+				C764CBF11CC37EFB005DA869 /* Frameworks */,
+				C764CBF21CC37EFB005DA869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapAnimation;
+			productName = tapAnimation;
+			productReference = C764CBF41CC37EFB005DA869 /* tapAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C764CBEC1CC37EFB005DA869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ko88201;
+				TargetAttributes = {
+					C764CBF31CC37EFB005DA869 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2GC6F822Z8;
+					};
+				};
+			};
+			buildConfigurationList = C764CBEF1CC37EFB005DA869 /* Build configuration list for PBXProject "tapAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C764CBEB1CC37EFB005DA869;
+			productRefGroup = C764CBF51CC37EFB005DA869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C764CBF31CC37EFB005DA869 /* tapAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C764CBF21CC37EFB005DA869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764CC3E1CC37F66005DA869 /* rockman26.png in Resources */,
+				C764CC341CC37F66005DA869 /* rockman16.png in Resources */,
+				C764CC391CC37F66005DA869 /* rockman21.png in Resources */,
+				C764CC021CC37EFB005DA869 /* LaunchScreen.storyboard in Resources */,
+				C764CC521CC386C8005DA869 /* rockman9.png in Resources */,
+				C764CC381CC37F66005DA869 /* rockman20.png in Resources */,
+				C764CC2E1CC37F66005DA869 /* rockman10.png in Resources */,
+				C764CC511CC386C8005DA869 /* rockman8.png in Resources */,
+				C764CC4D1CC386C8005DA869 /* rockman4.png in Resources */,
+				C764CC3C1CC37F66005DA869 /* rockman24.png in Resources */,
+				C764CC4F1CC386C8005DA869 /* rockman6.png in Resources */,
+				C764CC301CC37F66005DA869 /* rockman12.png in Resources */,
+				C764CC3A1CC37F66005DA869 /* rockman22.png in Resources */,
+				C764CBFF1CC37EFB005DA869 /* Assets.xcassets in Resources */,
+				C764CC2F1CC37F66005DA869 /* rockman11.png in Resources */,
+				C764CC501CC386C8005DA869 /* rockman7.png in Resources */,
+				C764CC4C1CC386C8005DA869 /* rockman3.png in Resources */,
+				C764CBFD1CC37EFB005DA869 /* Main.storyboard in Resources */,
+				C764CC4B1CC386C8005DA869 /* rockman2.png in Resources */,
+				C764CC371CC37F66005DA869 /* rockman19.png in Resources */,
+				C764CC331CC37F66005DA869 /* rockman15.png in Resources */,
+				C764CC311CC37F66005DA869 /* rockman13.png in Resources */,
+				C764CC4E1CC386C8005DA869 /* rockman5.png in Resources */,
+				C764CC3F1CC37F66005DA869 /* rockman27.png in Resources */,
+				C764CC401CC37F66005DA869 /* rockman28.png in Resources */,
+				C764CC361CC37F66005DA869 /* rockman18.png in Resources */,
+				C764CC321CC37F66005DA869 /* rockman14.png in Resources */,
+				C764CC3B1CC37F66005DA869 /* rockman23.png in Resources */,
+				C764CC4A1CC386C8005DA869 /* rockman1.png in Resources */,
+				C764CC3D1CC37F66005DA869 /* rockman25.png in Resources */,
+				C764CC351CC37F66005DA869 /* rockman17.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C764CBF01CC37EFB005DA869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764CBFA1CC37EFB005DA869 /* ViewController.swift in Sources */,
+				C764CBF81CC37EFB005DA869 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C764CBFB1CC37EFB005DA869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C764CBFC1CC37EFB005DA869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C764CC001CC37EFB005DA869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C764CC011CC37EFB005DA869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C764CC041CC37EFB005DA869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C764CC051CC37EFB005DA869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C764CC071CC37EFB005DA869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tapAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ko88201.tapAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C764CC081CC37EFB005DA869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tapAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ko88201.tapAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C764CBEF1CC37EFB005DA869 /* Build configuration list for PBXProject "tapAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C764CC041CC37EFB005DA869 /* Debug */,
+				C764CC051CC37EFB005DA869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C764CC061CC37EFB005DA869 /* Build configuration list for PBXNativeTarget "tapAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C764CC071CC37EFB005DA869 /* Debug */,
+				C764CC081CC37EFB005DA869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C764CBEC1CC37EFB005DA869 /* Project object */;
+}
